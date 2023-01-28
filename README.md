@@ -1,3 +1,4 @@
+![logo](https://user-images.githubusercontent.com/100389401/215268460-b73e0f4c-74f5-44ff-910f-e1d15d9b0cb0.svg)
 NetflixClone
 
 Clone da plataforma de streaming Netflix
