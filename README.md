@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+NetflixClone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone da plataforma de streaming Netflix
+Interface da aplicação
 
-## Available Scripts
+Funcionamento da aplicação
 
-In the project directory, you can run:
+🚀tecnologias
+React.js
+TypeScript
+Ícones de reação
+Componentes de estilo
+Axios
+💻Sobre o projeto
+Recriar a interface do Netflix como forma de aprender e treinar as habilidades perante o uso de TypeScript, React e CSS. Durante a construção deste projeto foi usado este vídeo como material de apoio.
 
-### `npm start`
+Todos os dados dos catálogos como título, descrição, capa, foto de fundo e avaliação foram extraídos ao usar a API TMDb .
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Funcionalidades
+ Spinning Loading : Efeito ao trazer os dados da API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Catálogo Destaque : selecione um catálogo de forma aleatória e apresentá-lo na página inicial.
 
-### `npm test`
+ Listagem Sessões : Ao consumir a API separar os catálogos em sessões.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Effect Menu : Criar um efeito no background do menu conforme o scroll da tela do usuário.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ Listagem Carrossel : Apresenta botões de controle para manipular a visualização dos itens da sessão.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Listagem Infinita : Ao chegar no final da lista dos catálogos deve-se apresentar os mesmos itens do início.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📥Instalação e execução
+Faça um clone desse repositório e acesse o diretório.
 
-### `npm run eject`
+$ git clone git@github.com:LeeonardoVargas/netflix-clone.git && cd netflix-clone
+Para ter acesso a API você precisa de uma chave, basta criar uma conta no TMDB para ter acesso, link do cadastro . Caminho da chave: Perfil -> configurações -> API -> Chave da API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Renomeie o arquivo .env.examplepara .enve cole o valor da sua chave no campo REACT_APP_API_KEY . Agora instale as dependências e execute o projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Instalando as dependências
+$ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Executanto aplicação
+$ yarn start
+💪Contribuir
+Faça o forke clone o projeto a partir do seu usuário.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Clonando projeto
+$ git clone https://github.com/SEU-NOME-DE-USUARIO/netflix-clone.git
 
-## Learn More
+# Criando um branch
+$ git branch minha-alteracao
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Acessando o novo branch
+$ git checkout -b minha-alteracao
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Adicionando os arquivos alterados
+$ git add .
 
-### Code Splitting
+# Criando commit e a mensagem
+$ git commit -m "Corrigindo...."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Enviando alterações para o brach
+$ git push origin minha-alteracao
+Você deve navegar até o seu repositório onde fez o fork e clicar no botão New pull request no lado esquerdo da página.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📝Licença
+Esse projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes..
