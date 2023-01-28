@@ -1,10 +1,13 @@
 ![logo](https://user-images.githubusercontent.com/100389401/215268460-b73e0f4c-74f5-44ff-910f-e1d15d9b0cb0.svg)
-NetflixClone
 
-Clone da plataforma de streaming Netflix
-Interface da aplicação
 
-Funcionamento da aplicação
+Clone da plataforma de streaming  <a src="https://www.netflix.com/browse"> Netflix </a>
+![2023-01-28](https://user-images.githubusercontent.com/100389401/215268658-3a767fb0-6791-495f-860c-011a2b4cc56a.png)
+
+
+https://user-images.githubusercontent.com/100389401/215268966-73b07bf1-3dee-4f5c-b96f-ebf912925f18.mp4
+
+
 
 🚀tecnologias
 React.js
@@ -12,6 +15,8 @@ TypeScript
 Ícones de reação
 Componentes de estilo
 Axios
+
+
 💻Sobre o projeto
 Recriar a interface do Netflix como forma de aprender e treinar as habilidades perante o uso de TypeScript, React e CSS. Durante a construção deste projeto foi usado este vídeo como material de apoio.
 
